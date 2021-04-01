@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1">
+  <title>Sign up form</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" </head>
+
+<body>
+
+
+  <div class="float-container">
+
+    <div class="mydiv1">
+
+
+      <div class="float-child">
+
+        <h1 class="myh1">Let's set up your account</h1>
+        <p>Already have an account? <a href="#" class="mya"><b>Sign in</b></a></p>
+
+        <form action="index.html" method="post" >
+          <input type="text" name="" placeholder="Your name"> <br><br>
+
+          <input type="text" id="myEmail" name="email" placeholder="Email address"  required>
+          <p id="demo"></p>
+          
+          <select>
+            <option>I would describe my user type as</option>
+            <option>Developer</option>
+            <option>Designer</option>
+          </select> <br><br>
+
+
+          <div class="container">
+            <input type="password" name="password" id="password" placeholder="Password">
+            <i class="far fa-eye" id="togglePassword"></i>
+          </div>
+          <p>Minimum 8 characters</p><br>
+
+          <button type="button" onclick="validation()" name="button">Next</button>
+        </form>
+        <p>By clicking the "Next" button, you agree to creating a free account and to <a href="#"><b>Terms of service</b></a> and <a href="#"><b>Privacy policy</b></a></p>
+      </div>
+    </div>
+    <div class="mydiv2 float-child2">
+      <h1 class="custom">Dummy heading</h1>
+      <p class="myp">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+
+    </div>
+  </div>
+  <script src="myjava.js"></script>
+
+</body>
+
+</html>
